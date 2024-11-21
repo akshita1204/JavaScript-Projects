@@ -25,6 +25,7 @@ const addToDo = (item) => {
         }
     )
 
+
     listItem.querySelector("i").addEventListener(
         "click",
         function()
@@ -34,3 +35,4 @@ const addToDo = (item) => {
     )
     toDoBox.appendChild(listItem);
 };
+
